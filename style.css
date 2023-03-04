@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* altura total da página */
+  }
+  
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .filmes {
+    width: 100%;
+    flex: 1;
+  }
+  
+  .series {
+    flex: 1;
+  }
+  
+  .animes {
+    flex: 1;
+  }
